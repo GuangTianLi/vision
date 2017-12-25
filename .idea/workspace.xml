@@ -47,11 +47,11 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="490">
-                <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+              <first_editor relative-caret-position="386">
+                <caret line="99" column="27" lean-forward="true" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
                 <folding>
-                  <marker date="1514198735946" expanded="true" signature="3847:4063" ph="{&quot;data_report_name&quot;: ''...}" />
-                  <marker date="1514198735946" expanded="true" signature="4100:4160" ph="{&quot;result&quot;: ''...}" />
+                  <marker date="1514198845277" expanded="true" signature="3845:4061" ph="{&quot;data_report_name&quot;: ''...}" />
+                  <marker date="1514198845277" expanded="true" signature="4096:4156" ph="{&quot;result&quot;: ''...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -547,11 +547,11 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="490">
-            <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <first_editor relative-caret-position="386">
+            <caret line="99" column="27" lean-forward="true" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
             <folding>
-              <marker date="1514198735946" expanded="true" signature="3847:4063" ph="{&quot;data_report_name&quot;: ''...}" />
-              <marker date="1514198735946" expanded="true" signature="4100:4160" ph="{&quot;result&quot;: ''...}" />
+              <marker date="1514198845277" expanded="true" signature="3845:4061" ph="{&quot;data_report_name&quot;: ''...}" />
+              <marker date="1514198845277" expanded="true" signature="4096:4156" ph="{&quot;result&quot;: ''...}" />
             </folding>
           </first_editor>
           <second_editor />

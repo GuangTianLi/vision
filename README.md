@@ -103,7 +103,7 @@ The vision server uses json formatted text as the client and server communicatio
 
 #### Request format
 
-```json
+```js
 {
   'data_report_name': '', // your data report name
   'file_name': '', // if your raw data is from file
@@ -115,7 +115,7 @@ The vision server uses json formatted text as the client and server communicatio
 #### Response format
 
 
-```json
+```js
 {
   'result': '' // The file address, if there is no error
 }

@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e40fbeb-b40b-4cd8-913e-1de2f0f893bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MANIFEST.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/cmdline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/commands/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/commands/create.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/commands/send.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/commands/server.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/commands/startproject.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/creator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/datareport/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/datareportcenter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/datareportloader.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/interfaces.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/sender.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/server.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/settings/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/settings/default_settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/templates/project/module/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/templates/project/module/data_report/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/templates/project/module/data_report_file/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/templates/project/module/settings.py.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/templates/project/vision.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/utils/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/utils/conf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/utils/datareport.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/utils/log.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/utils/misc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/utils/project.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/utils/template.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vision/utils/trackref.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -92,6 +57,16 @@
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="937">
+              <caret line="104" column="7" lean-forward="false" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,6 +152,7 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/vision/commands/startproject.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -565,6 +541,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="937">
+          <caret line="104" column="7" lean-forward="false" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

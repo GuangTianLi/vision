@@ -1,7 +1,6 @@
 import csv
 import logging
 import os
-
 import pandas as pd
 import pygal
 
@@ -33,7 +32,6 @@ class CreatorRunner(DataReportCenter):
                 logger.info("Write data: {}".format(content))
                 csv_out.writerows(content)
 
-
     def create_svg(self, style):
         '''
         Use some csv file by X_AXIS's key and Y_AXIS's key to create SVG file
@@ -47,20 +45,32 @@ class CreatorRunner(DataReportCenter):
             raise ValueError("%s must have a Y_AXIS" % type(self).__name__)
         else:
             for csv_file, svg_file in self.file_dict.items():
-                logger.info("Create {} ----------->   {}".format(self.csv_file, self.svg_file.split('/')[-1]))
-                budget = pd.read_csv(csv_file, encoding=self.settings.get("FILE_DECODE"))
+                logger.info(
+                    "Create {} ----------->   {}".format(self.csv_file, self.svg_file.split('/')[-1]))
+                budget = pd.read_csv(
+                    csv_file, encoding=self.settings.get("FILE_DECODE"))
                 if style == 1:
-                    bar_chart = pygal.Bar(legend_at_bottom=True, human_readable=True,
-                                          title=self.settings.get("DATA_REPORT_TITLE", self.data_report.name))
-                elif style ==2:
-                    bar_chart = pygal.Pie(legend_at_bottom=True, human_readable=True,
-                                          title=self.settings.get("DATA_REPORT_TITLE", self.data_report.name))
+                    bar_chart = pygal.Bar(
+                        legend_at_bottom=True,
+                        human_readable=True,
+                        title=self.settings.get(
+                            "DATA_REPORT_TITLE",
+                            self.data_report.name))
+                elif style == 2:
+                    bar_chart = pygal.Pie(
+                        legend_at_bottom=True,
+                        human_readable=True,
+                        title=self.settings.get(
+                            "DATA_REPORT_TITLE",
+                            self.data_report.name))
                 else:
-                    bar_chart = pygal.HorizontalBar(legend_at_bottom=True, human_readable=True,
-                                          title=self.settings.get("DATA_REPORT_TITLE", self.data_report.name))
+                    bar_chart = pygal.HorizontalBar(
+                        legend_at_bottom=True, human_readable=True, title=self.settings.get(
+                            "DATA_REPORT_TITLE", self.data_report.name))
 
                 for index, row in budget.iterrows():
-                    bar_chart.add(row[self.settings.get("X_AXIS")], row[self.settings.get("Y_AXIS")])
+                    bar_chart.add(row[self.settings.get("X_AXIS")],
+                                  row[self.settings.get("Y_AXIS")])
                 bar_chart.render_to_file(svg_file)
 
     def create(self, data_report_name):

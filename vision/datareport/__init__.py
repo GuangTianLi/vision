@@ -1,10 +1,6 @@
 """
 Base class for Vision DataReport
 """
-
-from palmutil.db_operation import BaseDB
-from palmutil.logger_util import JarvisLogger
-
 from vision.utils.trackref import object_ref
 
 
